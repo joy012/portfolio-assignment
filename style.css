@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 600px;
+    padding-bottom: 120px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+p{
+    color: dimgrey;
+    font-weight: 400;
+    margin: 20px 0;
+   
+}
+
+.pink-text{
+    color: rgb(241, 58, 132);
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0;
+}
+
+
+.half-width{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+    margin-top: 50px;
+}
+
+.half-width img{
+    width: 100%;
+    
+
+}
+
+.intro-section{
+    background: url("image/header-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.align-position{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 120px;
+}
+
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,hotpink,deeppink);
+}
+.link-btn:hover{
+    
+    background-image: linear-gradient(45deg,deeppink,hotpink);
+}
+
+
+.bio-section{
+    background: url("image/biography-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.latest-work{
+    background: url("image/latest-work-bg.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.latest-work h1{
+    margin: 50px 0;
+}
+.work-show{
+    width: 25%;
+    margin-left: 2%;
+    display: inline-block;
+    
+}
+
+.work-show img{
+    width: 100%;
+}
+
+.client-review{
+    text-align: center;
+    background: url("image/footer-bg.png") no-repeat;
+    background-size: cover;
+}
+
+#client-comment{
+    margin: 60px 0;
+}
+#client-comment h3,
+#client-comment h5{
+    margin: 5px;
+}
+
+#client-comment h5{
+    color: dimgrey;
+    font-weight: 400;
+}
+
+#client-comment p{
+    color: black;
+}
+
+.contact-me{
+    width: 40%;
+    padding: 30px ;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(45deg,deeppink,hotpink);
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.contact-me h5{
+    font-weight: 400;
+}
+
+.contact-me a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
